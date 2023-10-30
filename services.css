@@ -20,7 +20,7 @@ body {
 .topnavbar {
   color: #fff;
   top: 0px;
-  padding: 0px 10px 0px 0px;
+  padding: 0px 8px 0px 0px;
 }
 .topnavbar ul li:not(:last-child)::after{
   content: "|";
@@ -82,15 +82,13 @@ nav li a {
   text-decoration: none;
   font-size: 22px;
   font-family: Calibri;
-  
-
 }
 .navbar ul li:not(:last-child)::after{
   content: "|";
   color: #fff;
 }
 .navbar ul li a{
-  color: white;
+  color: #9dcce8;
   padding: 3px 12px 3px;
   text-decoration: none;
   font-size: 20px;
@@ -104,7 +102,6 @@ nav li a {
 
   li a {
   color: #9dcce9;
-
   text-decoration: none;
 }
 
@@ -115,15 +112,12 @@ nav li a {
 .contentarea {
   background-color: rgba(0, 0, 0, 0.7);
   font-size: 12px;
-  display: flex;
   padding: 4px;
   display: flex;
-  column-gap: 40px;
 }
 
 .image {
   padding-top: 10px;
-  /* padding-bottom: 10px; */
 }
 
 .mainheader {
@@ -140,7 +134,7 @@ nav li a {
   padding-bottom: 15px;
   color: #C6E3F7;
   font-family: sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   border-bottom: solid 1px #5f647a;
   text-decoration: underline;
   margin-top: 15px;
@@ -159,12 +153,6 @@ nav li a {
   color: white;
 }
 
-
-
-.topnavbar :not(:last-child):after {
-  content: '|';
-}
-
 /* a:hover {
   background-color: rgb(178, 221, 252, 0.7);
   padding-top: 20px;
@@ -176,10 +164,8 @@ nav li a {
 
 .maincontent {
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: Trebuchet MS;
-  /* line-height: 20px; */
-  /* margin-bottom: 10px; */
   color: white;
 }
 
@@ -190,7 +176,7 @@ nav li a {
   font-family:  Arial, sans-serif;
   border-bottom: solid 2px #5f647a;
   line-height: 2.7;
-  margin: 24px;
+  margin: 24px 0px;
   padding: 8px 0px 0px 25px;
 }
 
@@ -204,7 +190,6 @@ nav li a {
   margin-bottom: 24px;
   padding: 5px 10px 5px 10px;
   font-size: 14px;
-  letter-spacing: 1px;
 }
 
 /* a.servicehover:hover,
@@ -215,7 +200,7 @@ a.servicehover {
 } */
 .paragraph {
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 20px;
   margin-bottom: 10px;
@@ -238,12 +223,11 @@ a.servicehover {
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: #294160;
+  background-color: #2D3E6B;
   font-family: Trebuchet MS;
   text-decoration: none;
   color: #cad2ee;
-  margin-top: 10px;
-  gap: 0 5px;
+  margin-top: 5px;
 }
 .footer li {
   font-size: 16px;
@@ -270,7 +254,7 @@ a.servicehover {
 li a.active {
   background-color: #49677F;
   border-radius: 4px;
-  /* color: white; */
+  color: white !important;
 }
 .footer li:not(:first-child, :last-child)::after{
   content: " | ";
@@ -279,6 +263,7 @@ li a.active {
 }
 .right{
   font-size: 12px;
+  padding: 8px;
 }
 p{
   font-size: 16px;

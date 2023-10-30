@@ -192,6 +192,7 @@ body {
   .footer li:not(:first-child, :last-child)::after{
     content: " | ";
     color: #fff;
+    font-size: 14px;
   }
 
   
